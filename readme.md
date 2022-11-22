@@ -8,6 +8,8 @@
 docker build . -t map-exchanger-web:latest --build-arg API_ENDPOINT=http://localhost:8081/
 ```
 
+Note: Build argument `API_ENDPOINT` should point to the backend base URL with **traling slash**.
+
 ### Run container
 
 ```shell
